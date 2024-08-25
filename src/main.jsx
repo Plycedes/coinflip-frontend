@@ -8,13 +8,14 @@ import {
     RouterProvider,
     Route,
 } from "react-router-dom";
-import { Player, Admin } from "./components";
+import { Player, Admin, HowToPlay } from "./components";
 
 const router = createBrowserRouter(
     createRoutesFromElements(
         <Route path="/" element={<App />}>
             <Route path="" element={<Player />} />
             <Route path="admin" element={<Admin />} />
+            <Route path="help" element={<HowToPlay />} />
         </Route>
     )
 );
