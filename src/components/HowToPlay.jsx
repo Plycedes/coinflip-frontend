@@ -8,8 +8,8 @@ function HowToPlay() {
                 <div className="bg-white p-7 rounded-md">
                     <h1 className="font-bold text-xl mb-2">How to play</h1>
                     <ul className="space-y-3">
-                        <ListItem text="Connect to this website using your metamask wallet." />
-                        <ListItem text="Enter the amount you are willing to wager." />
+                        <ListItem text="Connect to this website using your metamask wallet on sepolia network." />
+                        <ListItem text="Enter the amount you are willing to wager.(Please wager less 0.01 eth)" />
                         <ListItem text="Select the predicted outcome of the coin." />
                         <ListItem text="If your prediction is correct, you will be rewarded with double the amount of your wager." />
                         <ListItem text="If incorrect, you will lose your amount wagered." />
