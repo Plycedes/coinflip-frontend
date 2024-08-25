@@ -20,7 +20,7 @@ function Player() {
         setShowResult(true);
         setTimeout(() => {
             setShowResult(false);
-        }, 5000);
+        }, 4000);
         console.log(res);
     };
 
